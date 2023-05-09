@@ -1,10 +1,10 @@
 # AWS Infrastructure
 Developing new infrastructure from scratch for a microservice-based architecture product requires a well-planned approach. To ensure a successful outcome, it is essential to break down the work into essential steps. The following steps can guide you through the process,
-* Outline Technogoly Stacks
-* Setup & Configure Technogoly Stacks
+* Outline Technology Stacks
+* Setup & Configure Technology Stacks
 * Provision using Terraform
 
-## Outline Technogoly Stacks
+## Outline Technology Stacks
 Developing a microservice-based architecture requires careful consideration of the technology stacks and tools used to ensure the system is scalable, fault-tolerant, secure, and highly available. Here, we outline the technology stacks and tools that we recommend for building a microservice-based architecture,
 ### AWS EKS
 AWS EKS provides a highly available, fault tolerant, scalable, load balanced, and self-healing infrastructure for running containerized applications. It supports popular container orchestration tools like Kubernetes, which can be used to deploy and manage microservices in a scalable and flexible way.    
@@ -24,7 +24,7 @@ AWS Identity and Access Management (IAM) can be used to manage access to various
 ### Terraform
 Terraform can be used to provision AWS EKS, IAM, CloudWatch, and ElasticCache. In fact, Terraform has built-in support for provisioning AWS resources, including EKS clusters, IAM roles and policies, CloudWatch alerts and logs, and ElasticCache clusters. This makes it easier for developers to manage and automate the infrastructure needed for their microservice-based architectures
 
-## Setup & Configure Technogoly Stacks
+## Setup & Configure Technology Stacks
 ### AWS EKS
 [Getting started with Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html)
 ### AWS ElastiCache
